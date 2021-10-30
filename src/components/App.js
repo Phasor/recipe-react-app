@@ -65,7 +65,7 @@ function App() {
     const newRecipes = [...recipes];//copy current recipe array so we don't change it
     const index = newRecipes.findIndex(recipe => recipe.id === id);
     newRecipes[index] = recipe; //update this recipe
-    setRecipes(newRecipes);
+    setRecipes(newRecipes); //update recipe list
   }
 
 
